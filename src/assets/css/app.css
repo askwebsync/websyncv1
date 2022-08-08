@@ -10,9 +10,16 @@
 
 /* Custom Styles Below */
 
+
 body {
-	font-family: 'GeneralSans-Regular';
-}
+	font-family: "GeneralSans-Regular";
+	/* background-image: url("../images/background1.png"); */
+	background-color: #181818;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+  }
+  
 
 /* Theme Colors */
 

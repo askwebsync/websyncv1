@@ -68,7 +68,7 @@
                   Basic
                 </h2>
                 <h2 class="text-lg text-gray-500 text-center pb-6 md:text-xl">
-                  Rp. 800 rb/thn
+                  Rp. 1,4/thn
                 </h2>
               </div>
 
@@ -92,7 +92,7 @@
                       </svg>
                     </div>
                     <span class="text-gray-700 text-sm lg:text-lg"
-                      >1 Pages</span
+                      >1-3 Pages</span
                     >
                   </li>
                   <li class="flex items-center">
@@ -176,7 +176,7 @@
                       </svg>
                     </div>
                     <span class="text-gray-700 text-sm lg:text-lg"
-                      >1x Revisi</span
+                      >3x Revisi</span
                     >
                   </li>
                   <li class="flex items-center">
@@ -327,7 +327,7 @@
                   Standart
                 </h2>
                 <h2 class="text-lg text-gray-500 text-center pb-6">
-                  Rp. 2,5 jt/thn
+                  Rp. 2,8 jt/thn
                 </h2>
               </div>
               <div class="flex flex-col items-center mt-3 px-3 lg:px-6">
@@ -434,7 +434,7 @@
                       </svg>
                     </div>
                     <span class="text-gray-700 text-md lg:text-lg ml-0lg:ml-3"
-                      >3x Revisi</span
+                      >5x Revisi</span
                     >
                   </li>
                   <li class="flex items-center">

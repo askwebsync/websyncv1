@@ -12,7 +12,7 @@ export default {
     <div
       class="
         font-medium
-        text-xl text-ternary-dark
+        text-xl text-white
         mb-2
       "
     >

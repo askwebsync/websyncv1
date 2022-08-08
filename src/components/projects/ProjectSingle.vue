@@ -8,12 +8,13 @@ export default {
   <div
     class="
       mx-auto
-      bg-white
+      bg-inherit
       shadow-lg
       cursor-pointer
       transform
       transition
       duration-500
+      box-shadow
       hover:scale-105
     "
   >
@@ -32,7 +33,7 @@ export default {
         style="width:350px; height: 350px"
       />
     </router-link>
-    <div class="p-6 border-t-2">
+    <div class="p-6 border-t">
       <router-link
         custom
         :to="{
@@ -45,8 +46,9 @@ export default {
           @click="navigate"
           class="
             font-general-semibold
-            text-2xl text-ternary-dark
+            text-2xl
             font-semibold
+            text-white
             cursor-pointer
             hover:text-indigo-500
             mb-3
@@ -55,7 +57,7 @@ export default {
           {{ project.title }}
         </p>
       </router-link>
-      <span class="font-general-medium text-lg text-ternary-dark">{{
+      <span class="font-general-medium text-lg text-gray-400">{{
         project.category
       }}</span>
     </div>
@@ -63,7 +65,7 @@ export default {
 </template>
 
 <style scoped>
-p{
-  color:#667EEA;
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 </style>

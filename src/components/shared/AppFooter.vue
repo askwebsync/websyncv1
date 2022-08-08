@@ -10,24 +10,12 @@ export default {
 
 <template>
   <div class="container mx-auto">
-    <div class="border-t-2 border-primary-light">
+    <div class="center">
       <!-- Footer social links -->
-      <div class="wrapper my-5">
-        <a href="#" class="icon facebook">
-          <div class="tooltip">Facebook</div>
-          <span><i class="fa fa-facebook-f"></i></span>
-        </a>
-        <a href="#" class="icon twitter">
-          <div class="tooltip">Twitter</div>
-          <span><i class="fa fa-twitter"></i></span>
-        </a>
-        <a href="#" class="icon instagram">
+      <div class="wrapper my-4 max-w-lg">
+        <a href="https://www.instagram.com/websync_/" class="icon instagram">
           <div class="tooltip">Instagram</div>
           <span><i class="fa fa-instagram"></i></span>
-        </a>
-        <a href="#" class="icon github">
-          <div class="tooltip">Github</div>
-          <span><i class="fa fa-github"></i></span>
         </a>
       </div>
 
@@ -38,6 +26,11 @@ export default {
 </template>
 
 <style scoped>
+
+.center{
+  text-align: -webkit-center;
+}
+
 .wrapper .icon{
   position: relative;
   background-color: #ffffff;

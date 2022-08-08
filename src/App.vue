@@ -55,7 +55,7 @@ export default {
         transform
         hover:-translate-y-1 hover:scale-110;
   border-radius: 50%;
-  font-size: 22px;
+  font-size: 35px;
   line-height: 22px;
 }
 
