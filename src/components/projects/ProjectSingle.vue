@@ -6,66 +6,49 @@ export default {
 
 <template>
   <div
-    class="
-      mx-auto
-      bg-inherit
-      shadow-lg
-      cursor-pointer
-      transform
-      transition
-      duration-500
-      box-shadow
-      hover:scale-105
-    "
+    class="max-w-lg mx-auto bg-gray-700 cursor-auto transform transition duration-500 rounded-2xl box-shadow hover:scale-105"
   >
-    <router-link
+    <!-- <router-link
       custom
       :to="{
         name: 'Project-Details',
         params: { id: project.id },
       }"
       v-slot="{ navigate }"
-    >
+    > -->
+    <div class="p-2">
       <img
-        @click="navigate"
         :src="project.img[0]"
-        class="overflow-hidden"
-        style="width:350px; height: 350px"
+        class="overflow-hidden object-contain"
       />
-    </router-link>
-    <div class="p-6 border-t">
-      <router-link
+    </div>
+    <!-- </router-link> -->
+    <div class="p-4 border-t-2 border-black">
+      <!-- <router-link
         custom
         :to="{
           name: 'Project-Details',
           params: { id: project.id },
         }"
         v-slot="{ navigate }"
-      >
-        <p
-          @click="navigate"
-          class="
-            font-general-semibold
-            text-2xl
-            font-semibold
-            text-white
-            cursor-pointer
-            hover:text-indigo-500
-            mb-3
-          "
+      > -->
+      <div class="">
+        <h2
+          class="font-general-semibold text-xl font-semibold text-yellow cursor-auto mb-4"
         >
           {{ project.title }}
-        </p>
-      </router-link>
-      <span class="font-general-medium text-lg text-gray-400">{{
-        project.category
-      }}</span>
+        </h2>
+      </div>
+      <!-- </router-link> -->
+      <p class="font-medium text-base text-gray-300">{{ project.category }}</p>
     </div>
   </div>
 </template>
 
 <style scoped>
-.box-shadow{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+img{
+  width: 300px;
+  height: 300px;
 }
 </style>

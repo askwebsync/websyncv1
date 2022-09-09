@@ -5,19 +5,26 @@ module.exports = {
 		'./src/**/*.jsx',
 		'./src/**/*.html',
 		'./src/**/*.md',
+		'./node_modules/tw-elements/dist/js/**/*.js'
 	],
 	darkMode: 'class',
 	theme: {
 		extend: {
 			/* eslint-disable no-mixed-spaces-and-tabs */
+			width: {
+				'xs': '11%',
+			},
+			textUnderlineOffset: {
+				3: '3px',
+			},
 			screens: {
-				'xs':'350px',
+				'xs': '350px',
 				'sm': '375px',
 				'md': '640px',
 				'mdl': '768px',
-			    'lg': '1024px',
+				'lg': '1024px',
 				'xl': '1280px',
-			  },
+			},
 			colors: {
 				'primary-light': '#F7F8FC',
 				'secondary-light': '#FFFFFF',
@@ -40,5 +47,5 @@ module.exports = {
 	variants: {
 		extend: { opacity: ['disabled'] },
 	},
-	plugins: [require('@tailwindcss/forms')],
+	plugins: [require('tw-elements/dist/plugin')],
 };

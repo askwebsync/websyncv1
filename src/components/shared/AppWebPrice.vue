@@ -1,27 +1,29 @@
 <template>
   <div
-    class="container mx-auto items-center flex flex-col py-12 gap-y-24 px-0 md:px-6"
+    class="container mx-auto items-center flex flex-col py-12 gap-y-12 px-0 md:px-6"
   >
-    <h2 class="z text-4xl md:text-5xl font-semibold text-white bounceIn mb-3">
+    <h2
+      class="z font-general-semibold text-5xl font-semibold text-white bounceIn mb-3"
+    >
       Pricelist
     </h2>
-    <div class="px-0 md:px-3">
+    <div class="">
       <div class="flex flex-wrap justify-center gap-12 items-center">
         <div class="sm:my-5 my-8 rounded-lg shadow-xl">
           <div
-            class="bg-gray-700 text-black rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
+            class="bg-gray-700 text-white rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
           >
             <div
-              class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-6 border-b"
+              class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-white px-6 border-b"
             >
               <h2
                 class="text-yellow text-xl uppercase font-medium p-3 mb-3 text-center"
               >
-                Android
+                Company Profile
               </h2>
               <h1 class="text-base text-white text-center pb-4">Start From</h1>
               <p class="text-xl text-white font-semibold text-center pb-6">
-                IDR 20,000,000,-
+                IDR 4,000,000,-
               </p>
             </div>
 
@@ -44,7 +46,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">Custom Design</p>
+                  <p class="text-white text-sm lg:text-lg">7 Pages</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -63,7 +65,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">Custom Feature</p>
+                  <p class="text-white text-sm lg:text-lg">Free Domain</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -82,7 +84,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">FSD</p>
+                  <p class="text-white text-sm lg:text-lg">Website SSL</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -101,7 +103,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">Apps Security</p>
+                  <p class="text-white text-sm lg:text-lg">Hosting 500 MB</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -120,9 +122,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">
-                    Apps Performance
-                  </p>
+                  <p class="text-white text-sm lg:text-lg">4x Revision</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -141,28 +141,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">SEO</p>
-                </li>
-                <li class="flex items-center">
-                  <div class="rounded-full p-3 fill-current text-white">
-                    <svg
-                      class="w-6 h-6 align-middle"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                  </div>
-                  <p class="text-white text-sm lg:text-lg">
-                    Play Store Certified
-                  </p>
+                  <p class="text-white text-sm lg:text-lg">Responsive Design</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -182,28 +161,7 @@
                     </svg>
                   </div>
                   <p class="text-white text-sm lg:text-lg">
-                    Android Developer Membership
-                  </p>
-                </li>
-                <li class="flex items-center">
-                  <div class="rounded-full p-3 fill-current text-white">
-                    <svg
-                      class="w-6 h-6 align-middle"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                  </div>
-                  <p class="text-white text-sm lg:text-lg">
-                    155 Countries Worldwide Access
+                    Social Media Integration
                   </p>
                 </li>
                 <li class="flex items-center">
@@ -231,21 +189,22 @@
         </div>
         <div class="sm:my-5 my-8 rounded-lg shadow-xl">
           <div
-            class="bg-gray-700 text-black rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
+            class="bg-gray-700 text-white rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
           >
             <div
-              class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-6 border-b"
+              class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-white px-6 border-b"
             >
               <h2
                 class="text-yellow text-xl uppercase font-medium p-3 mb-3 text-center"
               >
-                IOS
+                E-Commerce
               </h2>
               <h1 class="text-base text-white text-center pb-4">Start From</h1>
               <p class="text-xl text-white font-semibold text-center pb-6">
-                IDR 30,000,000,-
+                IDR 8,000,000,-
               </p>
             </div>
+
             <div class="flex flex-col items-center mt-2 p-3 lg:p-6">
               <ul>
                 <li class="flex items-center">
@@ -265,7 +224,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">Custom Design</p>
+                  <p class="text-white text-sm lg:text-lg">7 Pages</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -284,7 +243,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">Custom Feature</p>
+                  <p class="text-white text-sm lg:text-lg">Free Domain</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -303,7 +262,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">FSD</p>
+                  <p class="text-white text-sm lg:text-lg">Website SSL</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -322,7 +281,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">Apps Security</p>
+                  <p class="text-white text-sm lg:text-lg">Hosting 2 GB</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -341,7 +300,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">Apps Performance</p>
+                  <p class="text-white text-sm lg:text-lg">5x Revision</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -360,7 +319,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">SEO</p>
+                  <p class="text-white text-sm lg:text-lg">Responsive Design</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -380,7 +339,7 @@
                     </svg>
                   </div>
                   <p class="text-white text-sm lg:text-lg">
-                    Apps Store Certified
+                    Social Media Integration
                   </p>
                 </li>
                 <li class="flex items-center">
@@ -400,9 +359,145 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">
-                    Apps Developer Membership
-                  </p>
+                  <p class="text-white text-sm lg:text-lg">24/7 Support</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sm:my-5 my-8 rounded-lg shadow-xl">
+          <div
+            class="bg-gray-700 text-white rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
+          >
+            <div
+              class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-white px-6 border-b"
+            >
+              <h2
+                class="text-yellow text-xl uppercase font-medium p-3 mb-3 text-center"
+              >
+                Custom Website
+              </h2>
+              <h1 class="text-base text-white text-center pb-4">Start From</h1>
+              <p class="text-xl text-white font-semibold text-center pb-6">
+                IDR 10,000,000,-
+              </p>
+            </div>
+
+            <div class="flex flex-col items-center mt-2 p-3 lg:p-6">
+              <ul>
+                <li class="flex items-center">
+                  <div class="rounded-full p-3 fill-current text-white">
+                    <svg
+                      class="w-6 h-6 align-middle"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm lg:text-lg">10 Pages</p>
+                </li>
+                <li class="flex items-center">
+                  <div class="rounded-full p-3 fill-current text-white">
+                    <svg
+                      class="w-6 h-6 align-middle"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm lg:text-lg">Free Domain</p>
+                </li>
+                <li class="flex items-center">
+                  <div class="rounded-full p-3 fill-current text-white">
+                    <svg
+                      class="w-6 h-6 align-middle"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm lg:text-lg">Website SSL</p>
+                </li>
+                <li class="flex items-center">
+                  <div class="rounded-full p-3 fill-current text-white">
+                    <svg
+                      class="w-6 h-6 align-middle"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm lg:text-lg">Hosting 10 GB</p>
+                </li>
+                <li class="flex items-center">
+                  <div class="rounded-full p-3 fill-current text-white">
+                    <svg
+                      class="w-6 h-6 align-middle"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm lg:text-lg">5x Revision</p>
+                </li>
+                <li class="flex items-center">
+                  <div class="rounded-full p-3 fill-current text-white">
+                    <svg
+                      class="w-6 h-6 align-middle"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                  </div>
+                  <p class="text-white text-sm lg:text-lg">Responsive Design</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -422,7 +517,7 @@
                     </svg>
                   </div>
                   <p class="text-white text-sm lg:text-lg">
-                    155 Countries Worldwide Access
+                    Social Media Integration
                   </p>
                 </li>
                 <li class="flex items-center">

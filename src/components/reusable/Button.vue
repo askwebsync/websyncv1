@@ -10,7 +10,8 @@ export default {
 </script>
 
 <template>
-	<button>{{ title }}</button>
+	<button class="px-4 py-2 animate-bounce inline-block text-md font-general-medium bg-transparent border border-white text-white shadow-sm rounded-md duration-300"><a href="">Call </a></button>
 </template>
 
-<style lang="scss" scoped></style>
+<style  scoped>
+</style>

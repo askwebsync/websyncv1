@@ -7,55 +7,91 @@ const routes = [
 		name: 'home',
 		component: Home,
 		meta: {
-			title: 'WS - Home',
+			title: 'Home',
 		},
 	},
 	{
 		path: '/about',
-		name: 'About',
+		name: 'about',
 		// route level code-splitting
-		// this generates a separate chunk (about.[hash].js) for this route
+		// this generates a separate chunk (Contact.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "about" */ '../views/About.vue'),
+			import(/* webpackChunkName: "Contact" */ '../views/About.vue'),
 		meta: {
-			title: 'WS - About',
+			title: 'About',
+		},
+	},
+	{
+		path: '/contact',
+		name: 'contact',
+		// route level code-splitting
+		// this generates a separate chunk (Contact.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "Contact" */ '../views/Contact.vue'),
+		meta: {
+			title: 'Contact',
 		},
 	},
 	{
 		path: '/projects',
-		name: 'Projects',
+		name: 'projects',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
 		meta: {
-			title: 'WS - Projects',
+			title: 'Portofolio Website',
 		},
 	},
 	{
 		path: '/template',
-		name: 'Template',
+		name: 'template',
 		// route level code-splitting
 		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/Template.vue'),
 		meta: {
-			title: 'WS - Template',
+			title: 'Template Website',
 		},
 	},
 	{
-		path: '/contact',
-		name: 'Contact',
+		path: '/web-page',
+		name: 'website',
 		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
+		// this generates a separate chunk (about.[hash].js) for this route
 		// which is lazy-loaded when the route is visited.
 		component: () =>
-			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
+			import(/* webpackChunkName: "about" */ '../views/WebPage.vue'),
 		meta: {
-			title: 'WS - Contact',
+			title: 'Website Development Services',
+		},
+	},
+	{
+		path: '/apps-page',
+		name: 'apps',
+		// route level code-splitting
+		// this generates a separate chunk (about.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "about" */ '../views/AppsPage.vue'),
+		meta: {
+			title: 'Apps Development Services',
+		},
+	},
+	{
+		path: '/uiux-page',
+		name: 'uiux',
+		// route level code-splitting
+		// this generates a separate chunk (about.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(/* webpackChunkName: "about" */ '../views/DesignPage.vue'),
+		meta: {
+			title: 'UI/UX Design Services',
 		},
 	},
 	{

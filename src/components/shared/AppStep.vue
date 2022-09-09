@@ -1,63 +1,36 @@
 <template>
-    <section>
-        <div class="container mx-auto flex flex-col gap-y-2 my-12">
-            <div class="items-center text-center mb-2">
-                <h1 class="
-            font-general-semibold
-            text-3xl
-            md:text-4xl
-            font-semibold
-            text-ternary-dark
-          ">
-                    Work Flow
-                </h1>
+    <section class="bg-step">
+        <div class="container flex flex-col items-center mx-auto py-24 box-shadow">
+            <div class="space-y-5 mb-4 text-center">
+                <h2 class="text-4xl text-white">Workflow</h2>
+                <p class="text-gray-400 text-base">
+                    We’re technologists and entrepreneurs, so we understand both the technical and business challenges
+                    of creating digital products
+                </p>
             </div>
-            <!-- component -->
-            <div class="px-0 py-2 mb-4 md:px-5">
-                <div class="mx-0 p-0 md:px-5 p-5">
-                    <div class="flex items-center">
-                        <div class="flex items-center text-teal-600 relative">
-                           <div class="rounded-full icon-center h-12 w-12 py-3 border-2 bg-teal-600 border-gray-400">
-                               <img src="@/assets/images/call.svg">
-                            </div>
-                            <div
-                                class="absolute top-0 -ml-10 text-center mt-16 w-32 text-base md:text-lg font-semibold capitalize text-black step-procces-description">
-                                Contact</div>
-                        </div>
-                        <div class="flex-auto border-t-2 border-blue-500"></div>
-                        <div class="flex items-center text-teal-600 relative">
-                            <div class="rounded-full icon-center h-12 w-12 py-3 border-2 bg-teal-600 border-gray-400">
-                               <img src="@/assets/images/code.svg">
-                            </div>
-                            <div
-                                class="absolute top-0 -ml-10 text-center mt-16 w-32 text-base md:text-lg font-semibold capitalize text-black step-procces-description">
-                                Coding</div>
-                        </div>
-                        <div class="flex-auto border-t-2 border-blue-500"></div>
-                        <div class="flex items-center text-gray-500 relative">
-                            <div class="rounded-full h-12 w-12 py-3 border-2 border-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none"
-                                    viewBox="0 0 24 24" stroke="black" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-mail ">
-                                    <path
-                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                    </path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>
-                            </div>
-                            <div
-                                class="absolute top-0 -ml-10 text-center mt-16 w-32 text-base md:text-lg font-semibold capitalize text-black step-procces-description">
-                                Review</div>
-                        </div>
-                        <div class="flex-auto border-t-2 border-blue-500"></div>
-                        <div class="flex items-center text-gray-500 relative">
-                           <div class="rounded-full icon-center h-12 w-12 py-3 border-2 bg-teal-600 border-gray-400">
-                               <img src="@/assets/images/percent.svg">
-                            </div>
-                            <div
-                                class="absolute top-0 -ml-10 text-center mt-16 w-32 text-base md:text-lg font-semibold capitalize text-black step-procces-description">
-                                Revision</div>
-                        </div>
+            <div class="flex flex-wrap gap-12 mt-12 items-center self-center justify-center">
+                <div class="bg-gray-700 shadow-box rounded-lg">
+                    <div class="p-5 rounded-lg space-y-7 max-w-lg">
+                        <h2 class="text-yellow text-xl font-bold underline underset">Strategy</h2>
+                        <p class="text-white">The first people you’ll meet are our business, UX and technology experts. Together you’ll
+                            discuss ideas and opportunities, and then we’ll deliver blueprints for the best solution.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 shadow-box rounded-lg">
+                    <div class="p-5 rounded-lg space-y-7 max-w-lg">
+                        <h2 class="text-yellow text-xl font-bold underline underset">Design</h2>
+                        <p class="text-white">Design
+                            In this stage, we translate the strategic basis of the project into visual design. The aim
+                            is to create an impressive experience in the interaction between the brand and the user.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 shadow-box rounded-lg">
+                    <div class="p-5 rounded-lg space-y-7 max-w-lg">
+                        <h2 class="text-yellow text-xl font-bold underline underset">Development</h2>
+                        <p class="text-white">Our code crafters are included in the project from the very beginning. They create
+                            progressive solutions placed on the right platforms to enhance the user experience. </p>
                     </div>
                 </div>
             </div>
@@ -71,10 +44,7 @@ export default {};
 
 <style scoped>
 
-.icon-center{
-    text-align: -webkit-center;
-}
-.step-procces-description {
-  font-family: "Lato", sans-serif;
+.underset{
+  text-underline-offset: 0.4em;
 }
 </style>

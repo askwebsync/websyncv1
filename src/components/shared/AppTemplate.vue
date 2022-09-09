@@ -68,7 +68,7 @@
             <div
               class="
               border-t border-l border-b
-                bg-gray-800
+                bg-gray-700
                 text-center
                 h-84
                 w-48

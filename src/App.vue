@@ -21,74 +21,21 @@ export default {
 </script>
 
 <template>
-  <div>
-    <!-- App header -->
-    <AppHeader />
-    <!-- Render active component contents with vue transition -->
-    <router-view> </router-view>
-    <!-- Scroll to top -->
-    <back-to-top
-      visibleoffset="500"
-      right="30px"
-      bottom="20px"
-      class="shadow-lg"
-    >
-      <i data-feather="chevron-up"></i>
-    </back-to-top>
-    <!-- App footer -->
+  <div class="">
+    <AppHeader class="sticky top-0" />
+    <router-view></router-view>
     <AppFooter />
   </div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
 
-.vue-back-to-top {
-  @apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition
-        duration-500
-        ease-in-out
-        transform
-        hover:-translate-y-1 hover:scale-110;
-  border-radius: 50%;
-  font-size: 35px;
-  line-height: 22px;
-}
-
-.fade-enter-active {
-  animation: coming 0.4s;
-  animation-delay: 0.2s;
-  opacity: 0;
-}
-
-.fade-leave-active {
-  animation: going 0.4s;
-}
-
-@keyframes going {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-10px);
-    opacity: 0;
-  }
-}
-
-@keyframes coming {
-  from {
-    transform: translateX(-10px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateX(0px);
-    opacity: 1;
-  }
+.container-shadow {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 </style>
