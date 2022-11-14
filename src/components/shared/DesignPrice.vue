@@ -3,7 +3,7 @@
     class="container mx-auto items-center flex flex-col py-12 gap-y-12 px-0 md:px-6"
   >
     <h2
-      class="font-general-semibold text-5xl font-semibold text-white bounceIn mb-3"
+      class="font-general-semibold text-2xl md:text-3xl font-semibold text-white bounceIn mb-3"
     >
       Pricelist
     </h2>

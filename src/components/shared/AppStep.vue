@@ -1,8 +1,8 @@
 <template>
   <section class="bg-step">
-    <div class="container flex flex-col items-center mx-auto py-24 box-shadow">
+    <div class="container flex flex-col items-center mx-auto my-12 box-shadow">
       <div class="space-y-5 mb-4 text-center">
-        <h2 class="text-4xl text-white">Workflow</h2>
+        <h2 class="text-3xl md:text-4xl text-white">Workflow</h2>
         <p class="text-gray-400 text-base">
           We’re technologists and entrepreneurs, so we understand both the
           technical and business challenges of creating digital products

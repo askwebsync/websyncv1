@@ -62,11 +62,11 @@ export default {
 
 <template>
   <section>
-    <div class="container my-6 mx-auto flex flex-col">
+    <div class="container my-12 mx-auto flex flex-col">
       <div class="mt-6">
         <!-- Projects grid title -->
         <div class="space-y-5 mb-6 text-center">
-          <h2 class="text-2xl sm:text-4xl text-white">
+          <h2 class="text-3xl md:text-4xl text-white">
             {{ projectsHeading }}
           </h2>
           <p class="text-gray-400 text-base">

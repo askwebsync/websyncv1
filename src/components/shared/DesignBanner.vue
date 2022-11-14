@@ -26,7 +26,7 @@ export default {
         class="max-w-lg center relative p-5 text-2xl text-white rounded-xl space-y-12"
       >
         <h2
-          class="font-general-semibold text-5xl font-semibold text-white md:text-6xl"
+          class="font-general-semibold text-3xl font-semibold text-white md:text-6xl"
         >
           Custom UI/UX Design Services
         </h2>

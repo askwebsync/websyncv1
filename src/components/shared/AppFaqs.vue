@@ -1,10 +1,12 @@
 <template>
   <section class="bg-service">
     <div
-      class="container flex flex-col my-6 items-center mx-auto gap-y-12 box-shadow"
+      class="container flex flex-col my-12 items-center mx-auto gap-y-12 box-shadow"
     >
       <div class="space-y-5 mb-4 text-center">
-        <h2 class="text-4xl text-white">Frequently Asked Question</h2>
+        <h2 class="text-2xl md:text-4xl text-white">
+          Frequently Asked Question
+        </h2>
         <p class="text-gray-400 text-base">
           The most common questions about how our business works and what can do
           for you.
@@ -30,7 +32,7 @@
           <div class="relative mb-4 center">
             <input type="checkbox" id="toggle1" class="toggle hidden" />
             <label
-              class="title block background-gray p-6 cursor-pointer"
+              class="title block background-gray px-4 py-6 cursor-pointer border-2"
               for="toggle1"
             >
               <h3 class="max-w-xs">Bagaimana Cara Melakukan Pemesanan?</h3>
@@ -71,7 +73,7 @@
           <div class="relative mb-4 center">
             <input type="checkbox" id="toggle2" class="toggle hidden" />
             <label
-              class="title block background-gray p-6 cursor-pointer"
+              class="title block background-gray px-4 py-6 cursor-pointer border-2"
               for="toggle2"
             >
               <h3 class="max-w-xs">Apa saja yang harus disiapkan?</h3>
@@ -88,7 +90,7 @@
           <div class="relative mb-4 center">
             <input type="checkbox" id="toggle3" class="toggle hidden" />
             <label
-              class="title block background-gray p-6 cursor-pointer"
+              class="title block background-gray px-4 py-6 cursor-pointer border-2"
               for="toggle3"
             >
               <h3 class="max-w-xs">Bagaimana Skema Pembayaran?</h3>

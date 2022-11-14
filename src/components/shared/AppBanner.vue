@@ -23,16 +23,16 @@ export default {
     >
       <main class="items-center px-4 sm:px-6 lg:px-8">
         <div
-          class="center flex flex-col gap-y-10 text-center items-center max-w-md md:max-w-full"
+          class="center flex flex-col gap-y-12 text-center items-center max-w-md md:max-w-full"
         >
           <h2
-            class="text-5xl tracking-wider text-white max-w-md lg:text-6xl"
-            style="line-height: 4rem"
+            class="text-5xl tracking-wider text-white max-w-xs lg:text-6xl"
+            style="line-height: 4.1rem"
           >
             Your #1 Website Design Agency
           </h2>
           <p
-            class="max-w-lg px-3 text-center mt-2 text-gray-400 text-lg sm:mx-auto sm:mt-5 md:mt-4"
+            class="max-w-lg px-3 text-center mt-3 text-gray-400 text-lg sm:mx-auto sm:mt-5 md:mt-4"
           >
             We specialize in creating visual identities for your company brands
             and product

@@ -1,10 +1,10 @@
 <template>
   <section class="bg-service">
     <div
-      class="container flex flex-col items-center mx-auto gap-y-12 box-shadow"
+      class="container flex flex-col items-center mx-auto gap-y-10 box-shadow my-12"
     >
       <div class="space-y-5 mb-4 text-center">
-        <h2 class="text-4xl text-white">Services</h2>
+        <h2 class="text-3xl md:text-4xl text-white">Services</h2>
         <p class="text-gray-400 text-base">
           Where our solutions become your internet reality.
         </p>

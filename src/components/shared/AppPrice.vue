@@ -2,7 +2,7 @@
   <div
     class="container mx-auto items-center flex flex-col py-12 gap-y-24 px-0 md:px-6"
   >
-    <h2 class="text-4xl md:text-5xl font-semibold text-white bounceIn mb-3">
+    <h2 class="text-2xl md:text-3xl font-semibold text-white bounceIn mb-3">
       Pricelist
     </h2>
     <div class="px-0 md:px-3">

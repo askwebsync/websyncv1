@@ -21,7 +21,7 @@ export default {
   <section class="">
     <div class="container center mx-auto px-6 py-12 md:px-12">
       <div class="space-y-5 mb-12 text-center">
-        <h2 class="text-4xl text-white">Contact</h2>
+        <h2 class="text-2xl md:text-4xltext-white">Contact</h2>
         <p class="text-gray-400 text-base">Feel free to always contact us</p>
       </div>
       <div class="mx-auto flex flex-col items-center normal lg:flex-row">
