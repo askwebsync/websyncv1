@@ -23,9 +23,7 @@ export default {
     },
   },
   watch: {
-    detail() {
-
-    },
+    detail() {},
   },
   methods: {
     setIndex(idx) {
@@ -40,54 +38,55 @@ export default {
     <!-- Project header -->
     <div class="flex flex-col">
       <div class="">
-        <h1 class="
-            font-general-semibold
-            text-4xl
-            md:text-5xl
-            font-semibold
-            text-ternary-dark
-            mb-8
-          ">
+        <h1
+          class="font-general-semibold text-4xl md:text-5xl font-semibold text-ternary-dark mb-8"
+        >
           Project Details
         </h1>
       </div>
-      <div class="
-          flex flex-col
-          gap-y-3
-          px-8
-          text-lg
-          my-3
-          place-content-center
-          md:px-48
-          lg:flex lg:flex-row lg:gap-x-5 lg:text-lg lg:px-36
-        ">
-        <div class="
-            flex
-            gap-x-2
-            items-center
-            border
-            projectDetail
-            py-3
-            px-4
-            rounded-lg
-          ">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 iconColor" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+      <div
+        class="flex flex-col gap-y-3 px-8 text-lg my-3 place-content-center md:px-48 lg:flex lg:flex-row lg:gap-x-5 lg:text-lg lg:px-36"
+      >
+        <div
+          class="flex gap-x-2 items-center border projectDetail py-3 px-4 rounded-lg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 iconColor"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
+            />
           </svg>
           <span class="font-general-medium leading-none">{{
-              getDetail.title
+            getDetail.title
           }}</span>
         </div>
-        <div class="flex gap-x-2 items-center border projectDetail py-3 px-4 rounded-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 iconColor" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+        <div
+          class="flex gap-x-2 items-center border projectDetail py-3 px-4 rounded-lg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 iconColor"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
+            />
           </svg>
           <span class="font-general-medium leading-none projectText">{{
-              getDetail.category
+            getDetail.category
           }}</span>
         </div>
         <!-- <div class="flex items-center border projectDetail py-3 px-4 rounded-lg">
@@ -99,31 +98,40 @@ export default {
               getDetail.date
           }}</span>
         </div> -->
-        <div class="flex gap-x-2 items-center border projectDetail py-3 px-4 rounded-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 iconColor" fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+        <div
+          class="flex gap-x-2 items-center border projectDetail py-3 px-4 rounded-lg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8 iconColor"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+            />
           </svg>
-          <a href="https://wisma52.com/" target="_blank" class="
-              font-general-medium
-              leading-none
-              projectText
-              hover:text-indigo-500
-              cursor-pointer
-            ">Live Website</a>
+          <a
+            href="https://wisma52.com/"
+            target="_blank"
+            class="font-general-medium leading-none projectText hover:text-indigo-500 cursor-pointer"
+            >Live Website</a
+          >
         </div>
       </div>
-      <div class="
-        max-w-2xl
-          mx-auto
-          mt-1
-          py-12
-          space-y-12
-          lg:space-y-0 lg:gap-10 lg:grid lg:grid-cols-3
-        ">
+      <div
+        class="max-w-2xl mx-auto mt-1 py-12 space-y-12 lg:space-y-0 lg:gap-10 lg:grid lg:grid-cols-3"
+      >
         <a-image-preview-group>
-          <div v-for="(images, index) in getDetail.img.slice(1, index)" :key="index" class="containerShadow rounded-lg">
+          <div
+            v-for="(images, index) in getDetail.img.slice(1, index)"
+            :key="index"
+            class="containerShadow rounded-lg"
+          >
             <a-image :src="images" class="w-full" />
           </div>
         </a-image-preview-group>

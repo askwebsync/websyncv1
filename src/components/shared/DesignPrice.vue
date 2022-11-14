@@ -3,7 +3,7 @@
     class="container mx-auto items-center flex flex-col py-12 gap-y-12 px-0 md:px-6"
   >
     <h2
-      class="z font-general-semibold text-5xl font-semibold text-white bounceIn mb-3"
+      class="font-general-semibold text-5xl font-semibold text-white bounceIn mb-3"
     >
       Pricelist
     </h2>
@@ -11,7 +11,7 @@
       <div class="flex flex-wrap justify-center gap-12 items-center">
         <div class="sm:my-5 my-8 rounded-lg shadow-xl">
           <div
-            class="bg-gray-700 text-white rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
+            class="background-gray text-white rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
           >
             <div
               class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-white px-6 border-b"
@@ -23,7 +23,7 @@
               </h2>
               <h1 class="text-base text-white text-center pb-4">Start From</h1>
               <p class="text-xl text-white font-semibold text-center pb-6">
-                IDR 1,000,000,-
+                IDR 2,000,000,-
               </p>
             </div>
 
@@ -126,7 +126,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">4x Revision</p>
+                  <p class="text-white text-sm lg:text-lg">3x Revision</p>
                 </li>
               </ul>
             </div>
@@ -134,7 +134,7 @@
         </div>
         <div class="sm:my-5 my-8 rounded-lg shadow-xl">
           <div
-            class="bg-gray-700 text-white rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
+            class="background-gray text-white rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
           >
             <div
               class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-white px-6 border-b"
@@ -249,7 +249,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">5x Revision</p>
+                  <p class="text-white text-sm lg:text-lg">3x Revision</p>
                 </li>
               </ul>
             </div>

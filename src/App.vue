@@ -21,10 +21,18 @@ export default {
 </script>
 
 <template>
-  <div class="">
-    <AppHeader class="sticky top-0" />
+  <div class="flex flex-col">
+    <AppHeader class="sticky top-0 zasli" />
     <router-view></router-view>
-    <AppFooter />
+
+    <a
+      href="https://wa.me/message/2CFRHSJQU3K3P1"
+      class="float"
+      target="_blank"
+    >
+      <i class="fa-brands fa-whatsapp my-float"></i>
+    </a>
+    <AppFooter class="bottom-0" />
   </div>
 </template>
 
@@ -34,8 +42,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-
-.container-shadow {
-  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+/* CSS only for demo purpose*/
+#btn-back-to-top {
+  position: fixed;
+  display: none;
 }
 </style>

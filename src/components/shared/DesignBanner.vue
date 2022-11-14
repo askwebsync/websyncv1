@@ -23,7 +23,7 @@ export default {
       class="flex items-center justify-center h-screen pb-12 md:pb-24 overflow-hidden"
     >
       <div
-        class="max-w-lg center relative z p-5 text-2xl text-white rounded-xl space-y-12"
+        class="max-w-lg center relative p-5 text-2xl text-white rounded-xl space-y-12"
       >
         <h2
           class="font-general-semibold text-5xl font-semibold text-white md:text-6xl"
@@ -39,5 +39,4 @@ export default {
   </section>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

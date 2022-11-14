@@ -3,7 +3,8 @@ import ProjectsGrid from "../components/projects/ProjectsGrid.vue";
 import ProjectsReview from "../components/projects/ProjectsReview.vue";
 import AppBanner from "../components/shared/AppBanner.vue";
 import AppService from "../components/shared/AppService.vue";
-import AppStep from "../components/shared/AppStep.vue"
+import AppStep from "../components/shared/AppStep.vue";
+import AppFaqs from "../components/shared/AppFaqs.vue";
 
 export default {
   name: "Home",
@@ -12,7 +13,8 @@ export default {
     ProjectsReview,
     AppBanner,
     AppService,
-    AppStep
+    AppStep,
+    AppFaqs,
     // AppPrice,
   },
 };
@@ -20,19 +22,13 @@ export default {
 
 <template>
   <!-- eslint-disable no-mixed-spaces-and-tabs -->
-  <div class="bg-image">
-    <AppBanner />
-    <AppService />
-    <AppStep />
-    <ProjectsGrid />
-    <ProjectsReview />
 
-
-    <a href="https://wa.me/message/2CFRHSJQU3K3P1" class="float" target="_blank">
-      <i class="fa-brands fa-whatsapp my-float"></i>
-    </a>
-  </div>
-
+  <AppBanner />
+  <AppService />
+  <AppStep />
+  <ProjectsGrid />
+  <AppFaqs />
+  <ProjectsReview />
 </template>
 
 <style scoped>

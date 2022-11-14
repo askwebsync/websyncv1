@@ -18,13 +18,22 @@ export default {
 
 <template>
   <section>
-    <div class="h-screen w-full flex items-center justify-center text-center pb-40 md:pb-44">
-      <main class="z items-center px-4 sm:px-6 lg:px-8">
-        <div class="center flex flex-col gap-y-10 text-center items-center max-w-md md:max-w-full">
-          <h2 class="text-5xl tracking-wider text-white max-w-md lg:text-6xl" style="line-height: 4rem">
+    <div
+      class="h-screen w-full flex items-center justify-center text-center pb-40 md:pb-44"
+    >
+      <main class="items-center px-4 sm:px-6 lg:px-8">
+        <div
+          class="center flex flex-col gap-y-10 text-center items-center max-w-md md:max-w-full"
+        >
+          <h2
+            class="text-5xl tracking-wider text-white max-w-md lg:text-6xl"
+            style="line-height: 4rem"
+          >
             Your #1 Website Design Agency
           </h2>
-          <p class="max-w-lg px-3 text-center mt-2 text-gray-400 text-lg sm:mx-auto sm:mt-5 md:mt-4">
+          <p
+            class="max-w-lg px-3 text-center mt-2 text-gray-400 text-lg sm:mx-auto sm:mt-5 md:mt-4"
+          >
             We specialize in creating visual identities for your company brands
             and product
           </p>
@@ -79,6 +88,4 @@ export default {
   </section>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

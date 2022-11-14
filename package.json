@@ -26,7 +26,8 @@
 		"vue-backtotop": "^1.6.1",
 		"vue-my-photos": "^3.0.1",
 		"vue-router": "^4.0.0-0",
-		"vue3-autocounter": "^1.0.6"
+		"vue3-autocounter": "^1.0.6",
+		"vue3-carousel": "^0.2.5"
 	},
 	"devDependencies": {
 		"@vue/cli-plugin-babel": "~4.5.0",

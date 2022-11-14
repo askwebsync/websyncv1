@@ -2,14 +2,14 @@
   <div
     class="container mx-auto items-center flex flex-col py-12 gap-y-24 px-0 md:px-6"
   >
-    <h2 class="z text-4xl md:text-5xl font-semibold text-white bounceIn mb-3">
+    <h2 class="text-4xl md:text-5xl font-semibold text-white bounceIn mb-3">
       Pricelist
     </h2>
     <div class="px-0 md:px-3">
       <div class="flex flex-wrap justify-center gap-12 items-center">
         <div class="sm:my-5 my-8 rounded-lg shadow-xl">
           <div
-            class="bg-gray-700 text-black rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
+            class="background-gray text-black rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
           >
             <div
               class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-6 border-b"
@@ -120,9 +120,7 @@
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
                     </svg>
                   </div>
-                  <p class="text-white text-sm lg:text-lg">
-                    Apps Performance
-                  </p>
+                  <p class="text-white text-sm lg:text-lg">Apps Performance</p>
                 </li>
                 <li class="flex items-center">
                   <div class="rounded-full p-3 fill-current text-white">
@@ -231,7 +229,7 @@
         </div>
         <div class="sm:my-5 my-8 rounded-lg shadow-xl">
           <div
-            class="bg-gray-700 text-black rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
+            class="background-gray text-black rounded-lg border-t border-gray-100 shadow-lg overflow-hidden"
           >
             <div
               class="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-6 border-b"

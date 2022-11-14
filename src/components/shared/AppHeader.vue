@@ -2,8 +2,7 @@
 import feather from "feather-icons";
 
 export default {
-  components: {
-  },
+  components: {},
   data() {
     return {
       dropdown: false,
@@ -53,15 +52,15 @@ export default {
       }
     },
     dropdownMenu() {
-      this.dropdown = !this.dropdown
+      this.dropdown = !this.dropdown;
     },
     dropdownClose() {
-      this.dropdown = !this.dropdown
-      this.isOpen = !this.isOpen
+      this.dropdown = !this.dropdown;
+      this.isOpen = !this.isOpen;
     },
     toggleClose() {
-      this.isOpen = !this.isOpen
-    }
+      this.isOpen = !this.isOpen;
+    },
   },
   updated() {
     feather.replace();
@@ -70,79 +69,121 @@ export default {
 </script>
 
 <template>
-  <section class="bg-black">
+  <section class="background-navbar">
     <nav id="nav" class="md:container md:mx-auto">
-      <!-- Header start -->
       <header class="md:flex md:justify-between md:items-center">
-        <!-- Header menu links and mdall screen hamburger menu -->
-        <div class="flex justify-between items-center px-4 py-4 md:px-0">
-          <!-- Header logos -->
+        <div class="flex justify-between items-center px-4 py-6 md:px-0">
           <div>
-            <router-link :to="{ name: 'home' }" class="focus:outline-none"><img src="@/assets/images/logo-1.png"
-                class="w-16 h-14 md:w-16 md:h-14 focus:outline-none" alt="Logo" />
+            <router-link :to="{ name: 'home' }" class="focus:outline-none"
+              ><img
+                src="@/assets/images/logo-1.png"
+                class="w-16 h-14 md:w-16 md:h-14 focus:outline-none"
+                alt="Logo"
+              />
             </router-link>
           </div>
 
-          <!-- Small screen hamburger menu -->
           <div class="md:hidden">
-            <button @click="isOpen = !isOpen" type="button" class=" focus:outline-none" aria-label="Hamburger Menu">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7" stroke="white">
-                <path v-if="isOpen" fill-rule="evenodd"
+            <button
+              @click="isOpen = !isOpen"
+              type="button"
+              class="focus:outline-none"
+              aria-label="Hamburger Menu"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="h-7 w-7"
+                stroke="white"
+              >
+                <path
+                  v-if="isOpen"
+                  fill-rule="evenodd"
                   d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-                  clip-rule="evenodd"></path>
-                <path v-if="!isOpen" fill-rule="evenodd"
-                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
-                </path>
+                  clip-rule="evenodd"
+                ></path>
+                <path
+                  v-if="!isOpen"
+                  fill-rule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                ></path>
               </svg>
             </button>
           </div>
         </div>
 
-        <!-- Header links -->
-        <div :class="isOpen ? 'block' : 'hidden'"
-          class="px-5 py-3 justify-center items-center mt-0 md:p-0 md:ml-6 md:mt-3 md:flex md:shadow-none">
+        <div
+          :class="isOpen ? 'block' : 'hidden'"
+          class="px-5 py-3 justify-center items-center mt-0 md:p-0 md:ml-6 md:mt-3 md:flex md:shadow-none"
+        >
           <div class="text-left cursor-pointer">
-            <a @click="dropdown = !dropdown"
-              class="inline-flex focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4 mb-1">
+            <a
+              @click="dropdown = !dropdown"
+              class="inline-flex focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4"
+            >
               Services
-              <svg focusable="false" data-prefix="fas" data-icon="caret-down" class="w-2 ml-1" role="img"
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                <path fill="currentColor"
-                  d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z">
-                </path>
+              <svg
+                focusable="false"
+                data-prefix="fas"
+                data-icon="caret-down"
+                class="w-2 ml-1"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                ></path>
               </svg>
             </a>
-            <ul v-show="dropdown"
-              class="absolute bg-gray-700 text-base sm:contents float-left p-4 text-left rounded-base border-none focus:outline-none md:block">
+            <ul
+              v-show="dropdown"
+              class="absolute background-gray text-base sm:contents float-left p-5 text-left rounded-base border-none focus:outline-none md:block"
+            >
               <li>
-                <router-link :to="{ name: 'website' }" @click="dropdownClose"
-                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2"
-                  href="#">Website Development</router-link>
+                <router-link
+                  :to="{ name: 'website' }"
+                  @click="dropdownClose"
+                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-3"
+                  href="#"
+                  >Website Development</router-link
+                >
               </li>
               <li>
-                <router-link :to="{ name: 'apps' }" @click="dropdownClose"
-                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2"
-                  href="#">Apps Development</router-link>
+                <router-link
+                  :to="{ name: 'apps' }"
+                  @click="dropdownClose"
+                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-3"
+                  href="#"
+                  >Apps Development</router-link
+                >
               </li>
               <li>
-                <router-link :to="{ name: 'uiux' }" @click="dropdownClose"
-                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2"
-                  href="#">UI/UX</router-link>
+                <router-link
+                  :to="{ name: 'uiux' }"
+                  @click="dropdownClose"
+                  class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-3"
+                  href="#"
+                  >UI/UX</router-link
+                >
               </li>
             </ul>
           </div>
-          <router-link :to="{ name: 'projects' }" @click="toggleClose"
-            class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4 mb-1">
-            Portofolio</router-link>
-          <router-link :to="{ name: 'about' }" @click="toggleClose"
-            class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4">
-            About
-          </router-link>
-            <router-link :to="{ name: 'contact' }" @click="toggleClose"
-            class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4">
+          <router-link
+            :to="{ name: 'projects' }"
+            @click="toggleClose"
+            class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4"
+          >
+            Portofolio</router-link
+          >
+          <router-link
+            :to="{ name: 'contact' }"
+            @click="toggleClose"
+            class="focus:outline-none block text-left text-base font-medium text-white hover:text-gray-400 p-2 mr-4"
+          >
             Contact
           </router-link>
-          
         </div>
       </header>
     </nav>
@@ -154,7 +195,6 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap");
-
 
 nav li:hover,
 nav li:active {
@@ -174,5 +214,9 @@ a {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   text-decoration: none;
+}
+
+.background-navbar {
+  background-color: #444444;
 }
 </style>

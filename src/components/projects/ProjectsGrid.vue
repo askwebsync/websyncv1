@@ -9,8 +9,8 @@ export default {
     return {
       projects,
       projectsHeading: "Portfolio",
-      searchProject: '',
-      category: '',
+      searchProject: "",
+      category: "",
     };
   },
   props: {
@@ -62,7 +62,7 @@ export default {
 
 <template>
   <section>
-    <div class="container py-16 mx-auto flex flex-col">
+    <div class="container my-6 mx-auto flex flex-col">
       <div class="mt-6">
         <!-- Projects grid title -->
         <div class="space-y-5 mb-6 text-center">
@@ -75,30 +75,40 @@ export default {
         </div>
       </div>
 
-      <div class="mt-6">
-        <div class="flex place-content-center border-b-2 border-gray-500 pb-3 gap-2 md:flex md:justify-between">
-          <div class="flex mr-2 md:mr-0">
-            <span class="hidden sm:block bg-primary-light p-1.5 shadow-sm rounded-md">
-              <i data-feather="search" class="text-ternary-dark w-6 h-6"></i>
-            </span>
-          </div>
-          <select v-model="category" :name="select" :id="select"
-            class="w-full text-center font-general-medium px-4 py-1.5 border-1 border-gray-200 rounded-md text-sm bg-secondary-light focus:outline-none sm:text-md md:w-xs">
-            <option value class="text-sm sm:text-md">All Projects</option>
-            <option v-for="option in selectOptions" :key="option" :value="option" class="sm:text-md">
-              {{ option }}
-            </option>
-          </select>
-        </div>
+      <div
+        class="mt-6 flex border-b-2 border-gray-500 pb-3 place-content-center"
+      >
+        <select
+          v-model="category"
+          :name="select"
+          :id="select"
+          class="max-w-xl text-center font-general-medium px-4 py-1.5 md:py-3 rounded-md text-base text-white background-gray focus:outline-none"
+        >
+          <option value class="text-sm sm:text-md">All Projects</option>
+          <option
+            v-for="option in selectOptions"
+            :key="option"
+            :value="option"
+            class="sm:text-md"
+          >
+            {{ option }}
+          </option>
+        </select>
       </div>
 
-      <div class="flex flex-col gap-10 my-12 md:grid md:grid-cols-3 z">
-        <ProjectSingle v-for="project in filteredProjects" :key="project.id" :project="project" />
+      <div class="grid md:grid-cols-2 gap-10 my-12">
+        <ProjectSingle
+          v-for="project in filteredProjects"
+          :key="project.id"
+          :project="project"
+        />
       </div>
-      <div class="z flex justify-center mb-5">
-        <router-link to="/projects"
-          class="font-medium flex items-center px-4 py-2 rounded-md shadow-lg bg-gray-700 hover:bg-gray-700 text-white text-lg overflow-hidden transform hover:scale-105 duration-500 ease-in-out"
-          aria-label="More Projects">
+      <div class="flex justify-center mb-5">
+        <router-link
+          to="/projects"
+          class="font-medium flex items-center px-4 py-2 rounded-md shadow-lg background-gray hover:background-gray text-white text-lg overflow-hidden transform hover:scale-105 duration-500 ease-in-out"
+          aria-label="More Projects"
+        >
           <button>Show All</button>
         </router-link>
       </div>
@@ -106,5 +116,4 @@ export default {
   </section>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

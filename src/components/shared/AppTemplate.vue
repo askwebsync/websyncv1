@@ -2,26 +2,13 @@
   <div class="template-background font">
     <div class="container mx-auto">
       <div
-        class="
-          flex flex-col
-          py-12
-          gap-y-2
-          md:grid md:grid-cols-2 md:gap-10 md:py-36
-        "
+        class="flex flex-col py-12 gap-y-2 md:grid md:grid-cols-2 md:gap-10 md:py-36"
       >
-        <div class="border-b-2 md:  border-r-2 md:border-b-0">
+        <div class="border-b-2 md: border-r-2 md:border-b-0">
           <div class="flex justify-center">
             <div class="">
               <div
-                class="
-                  border
-                  text-center
-                  h-36
-                  w-36
-                  flex
-                  items-center
-                  justify-center
-                "
+                class="border text-center h-36 w-36 flex items-center justify-center"
               >
                 <div>
                   <p class="text-lg text-white">Hours</p>
@@ -30,53 +17,25 @@
               </div>
 
               <div
-                class="
-                border
-                  bg-white
-                  text-gray-900 text-center
-                  h-36
-                  w-36
-                  flex
-                  items-center
-                  justify-center
-                "
+                class="border bg-white text-gray-900 text-center h-36 w-36 flex items-center justify-center"
               >
                 <div>
-                  <p class="text-lg ">Mins</p>
+                  <p class="text-lg">Mins</p>
                   <p class="text-xl sm:text-2xl font-bold">39</p>
                 </div>
               </div>
 
               <div
-                class="
-                border
-                  bg-indigo-500
-                  text-center
-                  h-36
-                  w-36
-                  flex
-                  items-center
-                  justify-center
-                "
+                class="border bg-indigo-500 text-center h-36 w-36 flex items-center justify-center"
               >
                 <div>
-                  <p class="text-lg ">15</p>
+                  <p class="text-lg">15</p>
                   <p class="text-xl sm:text-2xl font-bold">Secs</p>
                 </div>
               </div>
             </div>
             <div
-              class="
-              border-t border-l border-b
-                bg-gray-700
-                text-center
-                h-84
-                w-48
-                flex
-                items-center
-                justify-center
-                md:border
-              "
+              class="border-t border-l border-b background-gray text-center h-84 w-48 flex items-center justify-center md:border"
             >
               <div>
                 <p class="text-xl text-white">Days</p>
@@ -121,16 +80,7 @@
             <div class="text-sm mt-5">
               <a
                 href="#"
-                class="
-                  text-base
-                  font-medium
-                  leading-none
-                  text-indigo-500
-                  hover:text-white
-                  transition
-                  duration-500
-                  ease-in-out
-                "
+                class="text-base font-medium leading-none text-indigo-500 hover:text-white transition duration-500 ease-in-out"
                 >RK</a
               >
               <p class="text-base md:text-lg">CEO</p>

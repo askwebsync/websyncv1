@@ -19,71 +19,155 @@ export default {
 
 <template>
   <section class="">
-    <div class="container center mx-auto px-6 py-24 md:px-12 ">
-      <div
-        class="z max-w-lg flex flex-col text-center w-full gap-12 rounded-lg px-8 md:px-4 md:max-w-xl contact-shadow-box border"
-      >
-        <div class="flex flex-col gap-4 py-6">
-          <h2 class="text-3xl text-white">Contact</h2>
-          <p class="text-gray-400 text-base">24/7 Support For Client.</p>
+    <div class="container center mx-auto px-6 py-12 md:px-12">
+      <div class="space-y-5 mb-12 text-center">
+        <h2 class="text-4xl text-white">Contact</h2>
+        <p class="text-gray-400 text-base">Feel free to always contact us</p>
+      </div>
+      <div class="mx-auto flex flex-col items-center normal lg:flex-row">
+        <div class="w-full md:w-1/2">
+          <div class="map-responsive">
+            <iframe
+              src="https://maps.google.com/maps?q=jl%20citandui%20no%202%20cikini%20jakarta%20pusat&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen
+            >
+              ></iframe
+            >
+          </div>
         </div>
-        <div class="lg:w-1/2 md:w-2/3 mx-auto">
-          <div class="flex flex-wrap -m-5 z">
-            <div class="p-3 w-1/2">
-              <div class="relative">
-                <label for="name" class="leading-7 text-sm text-white z"
-                  >Name</label
-                >
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                />
-              </div>
+        <div
+          class="background-gray py-8 px-6 text-white w-full md:w-1/2 lg:px-12"
+        >
+          <div class="flex flex-col my-2">
+            <div class="flex items-center mt-5 lg:mt-7">
+              <i class="fa-regular fa-envelope fa-lg mr-6 text-yellow"></i>
+              <span class="text base lg:text-xl">ask.websync@gmail.com</span>
             </div>
-            <div class="p-3 w-1/2">
-              <div class="relative">
-                <label for="email" class="leading-7 text-sm text-white"
-                  >Email</label
-                >
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                />
-              </div>
+            <div class="flex items-center mt-5 lg:mt-7">
+              <i class="fa-solid fa-phone fa-lg mr-6 text-yellow"></i>
+              <span class="text base lg:text-xl">+6282122064150</span>
             </div>
-            <div class="p-3 w-full">
-              <div class="relative">
-                <label for="message" class="leading-7 text-sm text-white"
-                  >Message</label
-                >
-                <textarea
-                  id="message"
-                  name="message"
-                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                ></textarea>
-              </div>
+            <div class="flex items-center mt-5 lg:mt-7">
+              <i class="fa-regular fa-clock fa-lg mr-6 text-yellow"></i>
+              <span class="text base lg:text-xl">Available 24/7</span>
             </div>
-            <div class="p-3 mb-6 w-full">
-              <button
-                class="flex mx-auto text-white bg-black border-0 py-2 px-8 focus:outline-none rounded-lg text-lg"
-              >
-                Send
-              </button>
-            </div>
+          </div>
+          <hr class="my-5" />
+
+          <div class="wrapper max-w-lg mt-4 lg:mt-7">
+            <a
+              href="https://www.instagram.com/websync.id/"
+              class="icon instagram"
+            >
+              <div class="tooltip">Instagram</div>
+              <span><i class="fa-brands fa-instagram"></i></span>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <a
-      href="https://wa.me/message/2CFRHSJQU3K3P1"
-      class="float"
-      target="_blank"
-    >
-      <i class="fa-brands fa-whatsapp my-float"></i>
-    </a>
   </section>
 </template>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.text-yellow {
+  color: blanchedalmond;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 70%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 1024px) {
+  .normal {
+    align-items: normal;
+  }
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 79%;
+    position: relative;
+    height: 0;
+  }
+}
+</style>

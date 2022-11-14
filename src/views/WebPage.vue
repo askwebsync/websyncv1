@@ -9,8 +9,8 @@ export default {
   components: {
     AppWebPrice,
     AppWebBanner,
-    AppWebWhy
-},
+    AppWebWhy,
+  },
   data: () => {
     return {};
   },
@@ -25,20 +25,13 @@ export default {
 </script>
 
 <template>
-   <section class="bg-image">
+  <section class="bg-image">
     <AppWebBanner />
     <AppWebWhy />
     <div class="container mx-auto py-4">
       <AppWebPrice />
     </div>
-     <a href="https://wa.me/message/2CFRHSJQU3K3P1" class="float" target="_blank">
-    <i class="fa-brands fa-whatsapp my-float"></i>
-  </a>
-
-    </section>
+  </section>
 </template>
 
-<style scoped>
-
-</style>
-
+<style scoped></style>
