@@ -70,7 +70,7 @@ export default {
 
 <template>
   <section class="background-navbar">
-    <nav id="nav" class="md:container md:mx-auto">
+    <nav id="nav" class="md:container md:mx-auto shadow-xl">
       <header class="md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center px-4 py-6 md:px-0">
           <div>
@@ -218,5 +218,9 @@ a {
 
 .background-navbar {
   background-color: #444444;
+}
+.container-shadow {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 </style>
