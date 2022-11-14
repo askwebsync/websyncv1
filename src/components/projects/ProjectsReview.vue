@@ -33,7 +33,7 @@
             </div>
             <carousel :settings="settings" :breakpoints="breakpoints">
               <slide v-for="product in products" :key="product.id">
-                <div class="text-center carousel__item">
+                <div class="md:p-5 md:mx-4 mb-3 text-center carousel__item">
                   <div>
                     <div class="block rounded-lg shadow-lg bg-white">
                       <div
@@ -171,12 +171,7 @@ export default {
           snapAlign: "center",
         },
         700: {
-          itemsToShow: 2,
-          snapAlign: "center",
-        },
-
-        1024: {
-          itemsToShow: 3,
+          itemsToShow: 1,
           snapAlign: "start",
         },
       },
