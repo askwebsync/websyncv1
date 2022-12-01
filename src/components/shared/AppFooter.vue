@@ -11,9 +11,7 @@ export default {
 <template>
   <section class="background-gray">
     <div class="container mx-auto">
-      <div class="py-2">
         <FooterCopyright />
-      </div>
     </div>
   </section>
 </template>

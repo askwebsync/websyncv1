@@ -55,7 +55,7 @@
                         {{ product.owner }}
                       </h5>
                       <hr />
-                      <p class="mt-4 text-base md:text-lg max-w-sm">
+                      <p class="my-4 text-base md:text-lg max-w-sm">
                         {{ product.comment }}
                       </p>
                     </div>
@@ -104,6 +104,13 @@ export default {
           comment:
             " The results of the website are good even though the price is relatively cheap  compared to other services, very fast in responding questions, support from the beginning of the design stage, as welltaught me to configure a custom email.",
         },
+        {
+          id: 3,
+          name: "Aquira Bellinda",
+          owner: "Genova Indonesia",
+          comment:
+            "Very satisfied with the results and certainly the same fast response service! Highly recommended!",
+        },
       ],
       breakpoints: {
         400: {
@@ -128,11 +135,11 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 .carousel__next {
-  right: -50px;
+  right: -60px;
   background-color: #444444 !important;
 }
 .carousel__prev {
-  left: -50px;
+  left: -60px;
   background-color: #444444 !important;
 }
 .carousel__icon {

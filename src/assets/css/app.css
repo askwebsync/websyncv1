@@ -13,6 +13,25 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.app-banner{
+  background: url(../images/banner/mobile-2.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  
+}
+.web-banner{
+  background: url(../images/banner/web-6.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+.ux-banner{
+  background: url(../images/banner/ui-3.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
 
 .background-gray {
   background-color: #444444;
@@ -71,8 +90,8 @@ h5 {
   position: fixed;
   width: 50px;
   height: 50px;
-  bottom: 16px;
-  left: 18px;
+  bottom: 20px;
+  right: 20px;
   background-color: #25d366;
   color: #fff;
   border-radius: 40px;

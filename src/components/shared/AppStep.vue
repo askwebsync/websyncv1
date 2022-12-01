@@ -1,12 +1,29 @@
 <template>
   <section class="bg-step">
-    <div class="container flex flex-col items-center mx-auto my-12 box-shadow">
+    <div class="container flex flex-col items-center mx-auto my-24 box-shadow">
       <div class="space-y-5 mb-4 text-center">
         <h2 class="text-3xl md:text-4xl text-white">Workflow</h2>
         <p class="text-gray-400 text-base">
           We’re technologists and entrepreneurs, so we understand both the
           technical and business challenges of creating digital products
         </p>
+        <div class="text-center mb-24">
+              <span
+                class="inline-block w-1 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+              <span
+                class="inline-block w-3 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+              <span
+                class="inline-block w-40 h-1 rounded-full bg-yellow-400"
+              ></span>
+              <span
+                class="inline-block w-3 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+              <span
+                class="inline-block w-1 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+            </div>
       </div>
       <div
         class="flex flex-wrap gap-12 mt-12 items-center self-center justify-center"

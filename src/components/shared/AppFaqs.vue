@@ -1,7 +1,7 @@
 <template>
   <section class="bg-service">
     <div
-      class="container flex flex-col my-12 items-center mx-auto gap-y-12 box-shadow"
+      class="container flex flex-col my-24 items-center mx-auto gap-y-12 box-shadow"
     >
       <div class="space-y-5 mb-4 text-center">
         <h2 class="text-2xl md:text-4xl text-white">

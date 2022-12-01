@@ -99,16 +99,6 @@ export default {};
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-.font {
-  font-family: "Poppins", sans-serif !important;
-}
-
-.template-background {
-  background-color: rgb(55 65 81);
-  height: 100vh;
-  width: 100%;
-}
-
 hr {
   margin: auto;
   width: 40%;

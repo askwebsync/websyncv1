@@ -32,11 +32,4 @@ export default {
 </template>
 
 <style scoped>
-/* .bg-banner {
-  background-image: url("../assets/images/Frame1.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: auto 100%;
-  
-} */
 </style>

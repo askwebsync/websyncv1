@@ -1,7 +1,6 @@
 <script>
-import feather from "feather-icons";
 import AppPrice from "../components/shared/AppPrice.vue";
-import AppBanner from "../components/shared/App-Banner.vue";
+import AppBanner from "../components/shared/AppMobileBanner.vue";
 import AppWebWhy from "../components/shared/AppWebWhy.vue";
 
 export default {
@@ -13,12 +12,6 @@ export default {
   },
   data: () => {
     return {};
-  },
-  mounted() {
-    feather.replace();
-  },
-  updated() {
-    feather.replace();
   },
   methods: {},
 };

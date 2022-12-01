@@ -18,23 +18,28 @@ export default {
 </script>
 
 <template>
-  <section>
+  <section class="ux-banner">
     <div
-      class="flex items-center justify-center h-screen pb-12 md:pb-24 overflow-hidden"
+      class="h-screen w-full flex items-center justify-center text-center pb-40 md:pb-44"
     >
-      <div
-        class="max-w-lg center relative p-5 text-2xl text-white rounded-xl space-y-12"
-      >
-        <h2
-          class="font-general-semibold text-3xl font-semibold text-white md:text-6xl"
+      <main class="items-center px-4 sm:px-6 lg:px-8">
+        <div
+          class="center flex flex-col gap-y-12 text-center items-center max-w-xs md:max-w-md"
         >
-          Custom UI/UX Design Services
-        </h2>
-        <p class="max-w-lg text-lg text-gray-400">
-          we are presented to improve every design of the appearance and
-          features of your project to be more professional
-        </p>
-      </div>
+          <h2
+            class="mb-12 md:mb-6 text-5xl tracking-wider text-white lg:text-6xl"
+            style="line-height: 3.2rem"
+          >
+            UI/UX Design Services
+          </h2>
+          <p
+            class="px-3 text-center text-gray-400 text-lg sm:mx-auto sm:mt-5 md:mt-4"
+          >
+            We specialize in creating visual identities for your company brands
+            and product
+          </p>
+        </div>
+      </main>
     </div>
   </section>
 </template>

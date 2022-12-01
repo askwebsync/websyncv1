@@ -5,7 +5,23 @@
     >
       <div class="space-y-5 my-6 text-center">
         <h2 class="text-3xl md:text-4xl text-white">Why Us ?</h2>
-        <hr />
+        <div class="text-center mb-24">
+              <span
+                class="inline-block w-1 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+              <span
+                class="inline-block w-3 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+              <span
+                class="inline-block w-40 h-1 rounded-full bg-yellow-400"
+              ></span>
+              <span
+                class="inline-block w-3 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+              <span
+                class="inline-block w-1 h-1 rounded-full bg-yellow-400 ml-1"
+              ></span>
+            </div>
       </div>
       <div class="flex flex-wrap gap-12 justify-center md:grid grid-cols-3">
         <div class="background-gray shadow-box rounded-lg w-full mb-4">
