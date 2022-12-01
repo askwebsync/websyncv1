@@ -26,7 +26,7 @@
             </div>
       </div>
       <div
-        class="flex flex-wrap gap-12 mt-12 items-center self-center justify-center"
+        class="flex flex-wrap gap-14 mt-12 items-center self-center justify-center"
       >
         <div class="background-gray shadow-box rounded-lg">
           <div class="p-5 rounded-lg space-y-7 max-w-lg">
